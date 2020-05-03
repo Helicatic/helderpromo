@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Главная - Hellder</title>
+</head>
+<body class="index-page">
+  <header class="header">
+    <div class="header__wrapper">
+      <a class="header__logo">
+        <img src="img/logo-beta.png" alt="" class="header__logo-img">
+      </a>
+    </div>
+  </header>
+
+
+  <main class="main-page">
+    <div class="main-page__wrapper">
+
+      <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="https://e-timer.ru/js/etimer.js"></script>
+      <script type="text/javascript">
+      	jQuery(document).ready(function() {
+      		jQuery(".eTimer").eTimer({
+      			etType: 0, etDate: "09.05.2020.0.0", etTitleText: "До запуска осталось:", etTitleSize: 40, etShowSign: 1, etSep: ":", etFontFamily: "Trebuchet MS", etTextColor: "white", etPaddingTB: 15, etPaddingLR: 15, etBackground: "transparent", etBorderSize: 0, etBorderRadius: 2, etBorderColor: "white", etShadow: " 0px 0px 0px 0px transparent", etLastUnit: 4, etNumberFontFamily: "Impact", etNumberSize: 50, etNumberColor: "white", etNumberPaddingTB: 0, etNumberPaddingLR: 8, etNumberBackground: "transparent", etNumberBorderSize: 0, etNumberBorderRadius: 5, etNumberBorderColor: "white", etNumberShadow: "inset 0px 0px 0px 0px transparent"
+      		});
+      	});
+      </script>
+      <div class="timer">
+        <div class="eTimer"></div>
+      </div>
+
+
+      <img src="img/logo-block.png" alt="" width="275" height="268" class="main-page__logo-img">
+      <div class="main-page__btn-group">
+        <a href="roadmap.html" class="main-page__link">
+          <img src="img/roadmap-logo.png" alt="" width="171" height="28">
+        </a>
+        <a href="bonus.html" class="main-page__link main-page__link--bonus">
+          <img src="img/bonus.png" alt="" width="106" height="28">
+        </a>
+      </div>
+    </div>
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a href="#" >
+            <img src="img/instagram.svg" width="18" height="23">
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" >
+            <img src="img/facebook.svg" width="18" height="24">
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" >
+            <img src="img/telegram-cut.svg" width="17" height="18">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
